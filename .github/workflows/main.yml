@@ -22,4 +22,6 @@ jobs:
    
       - name: Run a  script
         run: curl https://qsign--xiaoqingqing1.repl.co?key=114514
+      - name:  Time
+        run:  echo $(date +%T)
 
